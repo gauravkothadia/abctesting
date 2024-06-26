@@ -15,7 +15,7 @@ public class VisaConfirmationSteps {
     @When("I click on start button")
     public void iClickOnStartButton() {
         //Click on start button
-        new StartPage().clickStartNow();
+        new StartPage().clickOnStartNowButton();
     }
 
     @And("I select a Nationality {string}")
